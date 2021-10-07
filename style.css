@@ -48,8 +48,13 @@ button {
     background-color: #3882f6;
     color: #f9faf8 ;
 }
-#info {
+.container {
+    width: auto;
+    height: 1000px;
     color: #1f2937;
+}
+.item {
+    flex:1;
 }
 #quote {
     margin-top: 10%;
@@ -61,6 +66,12 @@ button {
     font-weight: 500;
     font-style: italic;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#cta {
+    
+    text-align: center;
+    padding: 30px;
+    color: #f9faf8;
 }
 footer {
     background-color: #1f2937;
