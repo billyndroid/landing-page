@@ -1,0 +1,70 @@
+html {
+    font-family: sans-serif;
+}
+header {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+.logo {
+    font-size: 24px;
+}
+.navbar {
+   
+    text-align: right;
+    font-size: 18px;
+}
+ /* unvisited link */
+ a:link {
+    color: #e5e7eb;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #1f2937;
+  } 
+#hero {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+h1 {
+    color: #f9faf8;
+    text-align: left;
+    font-size: 48px;
+}
+h2 {
+
+}
+button {
+    background-color: #3882f6;
+    color: #f9faf8 ;
+}
+#info {
+    color: #1f2937;
+}
+#quote {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 15%;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 500;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 40px;
+}
