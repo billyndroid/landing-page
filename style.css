@@ -6,6 +6,8 @@ html {
 /* Header Section */
 .logo {
     font-size: 24px;
+    font-weight: 725;
+    padding: 20px;
 }
 .navbar {
     font-size: 18px;
@@ -39,20 +41,24 @@ li {
   a:active {
     color: #1f2937;
   } 
+
+
+
   /* Hero Section */
   /* whole section */
 .hero {
     display: inline-flex;
     height: 450px;
     flex-direction: row;
+    align-items: center;
     
 }
 /* text and button section */
 .heroContainer {
-    height: 350px;
-    width: 60%;
+    height: auto;
+    width: 90%;
     text-align: left;
-  
+    padding: 20px;
     display: flex;
     flex-direction: column;
     float:left
@@ -61,10 +67,17 @@ h1 {
     color: #f9faf8;
     text-align: left;
     font-size: 48px;
+    margin-bottom: 0%;
+}
+h3 {
+    margin-top: 0%;
+    font-weight: 400;
+    color: #b6b4b4;
 }
 /* image section */
 .heroImage {
-    align-self: left;
+    align-items: left;
+    margin: 100px;
 }
 /* Information Section */
 .container {
