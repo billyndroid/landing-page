@@ -76,6 +76,16 @@ h3 {
     font-weight: 400;
     color: #b6b4b4;
 }
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0px;
+    cursor: pointer;
+    font-weight: 600;
+}
 /* image section */
 .heroImage {
     align-items: left;
@@ -83,21 +93,34 @@ h3 {
 }
 /* Information Section */
 .container {
-    text-align: center;
+    display: flex;
+    text-align: justify;
+    text-justify: inter-character;
     color: #1f2937;
     background-color: #f9faf8;
     justify-content: center;
-    display: flex;
+    text-align-last: center;
+    height: auto;
+    width: 100vw;
 }
 .item {
-    padding: 10px;
+    position: relative;
+    padding: 5px;
     margin: 50px;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: auto;
     border: 4px solid #3882f6;
     background: #f9faf8;
     border-radius: 20px;
-align-items: center;}
+    align-items: center;
+}
+h2 {
+    position: absolute;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+   
+}
 /* Quote Section */
 #quote {
     margin-top: 10%;
@@ -109,40 +132,41 @@ align-items: center;}
     font-weight: 500;
     font-style: italic;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: auto;
 }
-.callToAction {
+/* Call to Action Section */
+.call-to-action {
     background-color: #f9faf8;
+    width: fit-content;
+    height: 350px;
 }
 #cta {
-    background-color: #f9faf8;
-
+    width: 80%;
+    border-radius: 10px;
+    height: 200px;
+    background-color: #3882f6;
     text-align: center;
+    align-content: flex-start;
+    margin: 20px;
     padding: 30px;
     color: #f9faf8;
 }
-.button {
+.buttonToo {
     background-color: #3882f6;
     color: #f9faf8;
     border-radius: 10px;
-    width: 130px;
+    width: 100px;
     height: 40px;
-    border: 0px;
     cursor: pointer;
-    font-weight: 600;
+    font-weight: 900;
+    text-align: center;
+    border: 20px;
+    border-color: #f9faf8;
 }
+/* Footer Section */
 footer {
     background-color: #1f2937;
     color: #f9faf8;
     text-align: center;
     padding: 40px;
-}
-button {
-    background-color: #3882f6;
-    color: #f9faf8;
-    width: 130px;
-    height: 50px;
-    border-radius: 10px;
-    border: 0px;
-    cursor: pointer;
-    font-weight: 600;
 }
