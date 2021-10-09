@@ -104,7 +104,7 @@ button {
     width: 100vw;
 }
 .itemOuter {
-    padding: 5px;
+    padding: 15px;
     align-content: center;
     margin: 50px;
     width: 150px;
@@ -113,6 +113,7 @@ button {
     background: #f9faf8;
     border-radius: 20px;
     align-items: center;
+    justify-content: center;
     display: block;
 }
 .item {
@@ -162,7 +163,7 @@ h2 {
     height: 100px;
     background-color: #3882f6;
     text-align: center;
-    margin: 20px;
+    margin: auto;
     padding: 30px;
     color: #f9faf8;
     display: flex;
@@ -172,12 +173,12 @@ h2 {
 #content {
     background-color: #3882f6;
     border: 1px solid #f9faf8;
-    margin: 20px;
+    margin: auto;
     padding: 20px;
     border-radius: 10px;
     display: flex;
-    align-content: center;
-    vertical-align: middle;
+    justify-content: left;
+    align-items: center;
 }
 .buttonToo {
     background-color: #3882f6;
@@ -187,7 +188,6 @@ h2 {
     height: 40px;
     cursor: pointer;
     font-weight: bold;
-    
     border: 2px solid #f9faf8;
   
 }
