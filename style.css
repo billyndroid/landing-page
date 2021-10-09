@@ -162,7 +162,7 @@ h2 {
     border-radius: 10px;
     height: 100px;
     background-color: #3882f6;
-    text-align: center;
+    text-align: left;
     margin: auto;
     padding: 30px;
     color: #f9faf8;
@@ -180,6 +180,16 @@ h2 {
     justify-content: left;
     align-items: center;
 }
+.text {
+    height: fit-content;
+    text-align: left;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    float:left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
 .buttonToo {
     background-color: #3882f6;
     color: #f9faf8;
@@ -189,7 +199,7 @@ h2 {
     cursor: pointer;
     font-weight: bold;
     border: 2px solid #f9faf8;
-  
+    text-align: center;  
 }
 /* Footer Section */
 footer {
