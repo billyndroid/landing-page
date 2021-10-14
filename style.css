@@ -170,25 +170,13 @@ h2 {
     align-content: center;
 
 }
-#content {
-    background-color: #3882f6;
-    border: 1px solid #f9faf8;
-    margin: auto;
-    padding: 20px;
-    border-radius: 10px;
+
+
+.text2 {
     display: flex;
-    justify-content: left;
-    align-items: center;
-}
-.text {
-    height: fit-content;
-    text-align: left;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    float:left;
-    margin-left: 20px;
-    margin-right: 20px;
+    flex: auto;
+    flex-direction: row;
+    
 }
 .buttonToo {
     background-color: #3882f6;
