@@ -150,32 +150,37 @@ h2 {
 /* Call to Action Section */
 .call-to-action {
     background-color: #f9faf8;
-    height: 350px;
+    height: 500px;
     width: auto;
     display: flex;
-    align-content: center;
-    
-
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; 
 }
 #cta {
     width: 80%;
     border-radius: 10px;
-    height: 100px;
+    height: 150px;
     background-color: #3882f6;
-    text-align: left;
-    margin: auto;
+    margin: 46px;
     padding: 30px;
     color: #f9faf8;
     display: flex;
-    align-content: center;
-
-}
-
-
-.text2 {
-    display: flex;
-    flex: auto;
     flex-direction: row;
+}
+#content {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    margin: auto;
+    padding: 30px;
+    align-self: flex-start;
     
 }
 .buttonToo {
@@ -187,7 +192,12 @@ h2 {
     cursor: pointer;
     font-weight: bold;
     border: 2px solid #f9faf8;
-    text-align: center;  
+    padding: 2%;
+    margin: 5px;
+    align-items: center;
+    justify-content: center; 
+    display: flex;
+    align-self: flex-end;
 }
 /* Footer Section */
 footer {
