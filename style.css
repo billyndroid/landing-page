@@ -169,7 +169,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 150px;
+    gap: 50px;
 }
 .text {
   
@@ -182,7 +182,7 @@ h2 {
     font-weight: bold;
     border: 2px solid #f9faf8;
     padding: 2%;
-    margin: 100px;
+  
 }
 /* Footer Section */
 footer {
