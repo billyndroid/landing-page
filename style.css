@@ -166,7 +166,9 @@ h2 {
   column-gap: 2em;
 }
 #content {
-    display: flex 
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .text {
   
@@ -179,7 +181,7 @@ h2 {
     font-weight: bold;
     border: 2px solid #f9faf8;
     padding: 2%;
-    margin: 5px;
+    margin: 100px;
 }
 /* Footer Section */
 footer {
