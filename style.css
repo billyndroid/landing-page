@@ -148,12 +148,14 @@ h2 {
     width: auto;
 }
 /* Call to Action Section */
-.container {
+.container2 {
     background-color: #f9faf8;
+    display: flex;
 }
 #cta {
     border-radius: 10px;
     background-color: #3882f6;
+    padding: 20px;
     margin-top: 150px;
     margin-bottom: 150px;
     margin-left: 5%;
