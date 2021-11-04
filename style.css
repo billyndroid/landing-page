@@ -150,20 +150,14 @@ h2 {
 /* Call to Action Section */
 .container {
     background-color: #f9faf8;
-    height: 500px;
-    width: auto;
-    display: flex;
 }
 #cta {
-    width: 80%;
     border-radius: 10px;
-    height: 150px;
     background-color: #3882f6;
-    margin: 46px;
-    padding: 30px;
-    color: #f9faf8;
-      row-gap: 50px;
-  column-gap: 2em;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 #content {
     display: flex;
@@ -172,7 +166,9 @@ h2 {
     gap: 50px;
 }
 .text {
-  
+  text-align: left;
+  color: #f9faf8;
+  padding: 5px;
 }
 .buttonToo {
     background-color: #3882f6;
@@ -182,7 +178,7 @@ h2 {
     font-weight: bold;
     border: 2px solid #f9faf8;
     padding: 2%;
-  
+    margin: 5px;
 }
 /* Footer Section */
 footer {
