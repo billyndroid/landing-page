@@ -153,9 +153,6 @@ h2 {
     height: 500px;
     width: auto;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center; 
 }
 #cta {
     width: 80%;
@@ -165,7 +162,8 @@ h2 {
     margin: 46px;
     padding: 30px;
     color: #f9faf8;
-   
+      row-gap: 50px;
+  column-gap: 2em;
 }
 #content {
    
@@ -182,7 +180,6 @@ h2 {
     border: 2px solid #f9faf8;
     padding: 2%;
     margin: 5px;
-   
 }
 /* Footer Section */
 footer {
