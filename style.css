@@ -148,7 +148,7 @@ h2 {
     width: auto;
 }
 /* Call to Action Section */
-.call-to-action {
+.container {
     background-color: #f9faf8;
     height: 500px;
     width: auto;
@@ -166,7 +166,7 @@ h2 {
   column-gap: 2em;
 }
 #content {
-   
+    display: flex 
 }
 .text {
   
