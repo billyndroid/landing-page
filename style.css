@@ -138,17 +138,18 @@ h2 {
 }
 /* Quote Section */
 #quote {
-    padding: 0;
     margin: 0;
     padding: 15%;
     background-color: #e5e7eb;
     height: 30vw;
     color: #1f2937;
-    font-size: 36px;
+    font-size: 46px;
     font-weight: 500;
     font-style: italic;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: auto;
+    overflow: hidden;
+    align-items: center;
 }
 /* Call to Action Section */
 .container2 {
@@ -194,4 +195,8 @@ footer {
     color: #f9faf8;
     text-align: center;
     padding: 40px;
+}
+#strongText {
+    padding: 10px;
+    margin: 50px;
 }
